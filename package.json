@@ -7,7 +7,10 @@
     
     "author": "James Kong <fishkingsin@gmail.com>",
     "dependencies": {
-        "bleacon": ">=0.4.0"
+        "bleacon": ">=0.4.0",
+        "rpi-gpio": ">=0.7.0",
+        "rpi-ws281x-native": ">=0.8.1",
+        "node-aplay": "1.0.3"
     },
     "main": "app",
     "engines": {
