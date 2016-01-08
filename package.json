@@ -1,0 +1,16 @@
+{
+    "name": "collar",
+    "version": "0.0.1",
+    "description": "collar app wearable device on raspberrry pi",
+    "keywords": ["wearable", "ibeacon", "raspberry pi"],
+    "repository": "https://github.com/fishkingsin/collar.git",
+    
+    "author": "James Kong <fishkingsin@gmail.com>",
+    "dependencies": {
+        "bleacon": ">=0.4.0"
+    },
+    "main": "app",
+    "engines": {
+        "node": ">= 0.4.1"
+    }
+}
