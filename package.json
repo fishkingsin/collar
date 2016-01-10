@@ -11,7 +11,9 @@
         "rpi-gpio": ">=0.7.0",
         "rpi-ws281x-native": ">=0.8.1",
         "node-aplay": "1.0.3",
-        "eddystone-beacon" : ">=1.0.5"
+        "eddystone-beacon" : ">=1.0.5",
+        "rpi-ws281x-native": ">=0.8.1"
+
     },
     "main": "app",
     "engines": {
