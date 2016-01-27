@@ -2,8 +2,8 @@ var Bleacon = require('bleacon');
 
 // var uuid = 'e2c56db5dffb48d2b060d0f5a71096e0';
 var uuid = 'b9407f30f5f8466eaff925556b57fe6d';
-var major = 0; // 0 - 65535
-var minor = 0; // 0 - 65535
+var major = 1; // 0 - 65535
+var minor = 2; // 0 - 65535
 
 Bleacon.startScanning([uuid], [major], [minor]);
 
