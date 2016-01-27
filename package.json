@@ -1,22 +1,24 @@
 {
-    "name": "collar",
-    "version": "0.0.1",
-    "description": "collar app wearable device on raspberrry pi",
-    "keywords": ["wearable", "ibeacon", "raspberry pi"],
-    "repository": "https://github.com/fishkingsin/collar.git",
-    
-    "author": "James Kong <fishkingsin@gmail.com>",
-    "dependencies": {
-        "bleacon": ">=0.4.0",
-        "rpi-gpio": ">=0.7.0",
-        "rpi-ws281x-native": ">=0.8.1",
-        "node-aplay": "1.0.3",
-        "eddystone-beacon" : ">=1.0.5",
-        "rpi-ws281x-native": ">=0.8.1"
-
-    },
-    "main": "app",
-    "engines": {
-        "node": ">= 0.4.1"
-    }
+	"name": "collar",
+	"version": "0.0.1",
+	"description": "collar app wearable device on raspberrry pi",
+	"keywords": [
+		"wearable",
+		"ibeacon",
+		"raspberry pi"
+	],
+	"author": "James Kong <fishkingsin@gmail.com>",
+	"main": "app",
+	"repository": {},
+	"dependencies": {
+		"bleacon": ">=0.4.0",
+		"rpi-gpio": ">=0.7.0",
+		"rpi-ws281x-native": ">=0.8.1",
+		"node-aplay": "1.0.3",
+		"eddystone-beacon": ">=1.0.5",
+		"sleep": ">^3.0.0"
+	},
+	"engines": {
+		"node": ">= 0.4.1"
+	}
 }
